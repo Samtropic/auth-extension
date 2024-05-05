@@ -22,6 +22,7 @@ import { ApiKey } from '../users/api-keys/entities/api-key.entity/api-key.entity
 import { ApiKeyGuard } from './authentication/guards/api-key/api-key.guard';
 import { GoogleAuthService } from './authentication/social/google-auth.service';
 import { GoogleAuthController } from './authentication/social/google-auth.controller';
+import { OtpAuthService } from './authentication/otp-auth.service';
 
 @Module({
   imports: [
@@ -50,6 +51,7 @@ import { GoogleAuthController } from './authentication/social/google-auth.contro
     FrameworkContributorPolicyHandler,
     ApiKeysService,
     GoogleAuthService,
+    OtpAuthService,
   ],
   controllers: [AuthenticationController, GoogleAuthController],
   exports: [],
