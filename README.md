@@ -24,6 +24,16 @@
 
 ## Description
 
+- Credentials
+- JWT tokens with rotation
+- RBAC
+- Claims-based Authorization
+- Policy-based Authorization
+- Api key
+- Server side sessions with passport
+- OAuth with Google
+- 2FA with QrCode
+
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
 ## Installation
